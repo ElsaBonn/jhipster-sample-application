@@ -13,12 +13,9 @@ entity Categorie {
 
 
 
-relationship OneToMany {
-    Article to Categorie{categorie},
-    Commande to Article{article}
-}
+
 
 relationship ManyToOne {
     Categorie{categorie} to Article,
-    Article{article} to Commande
+   
 }
