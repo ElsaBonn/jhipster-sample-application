@@ -1,7 +1,7 @@
 entity Article {
     designation String,
-    stock Int,
-    nbPoints Int,
+    stock Integer,
+    nbPoints Integer,
     description String,
 
 }
@@ -10,9 +10,7 @@ entity Categorie {
     countryName String
 }
 
-entity Commande {
 
-}
 
 
 relationship OneToMany {
